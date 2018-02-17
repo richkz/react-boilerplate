@@ -1,15 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3030;
-const path = require('path');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const app = express();
-app.use(express.static(`${__dirname}/../lient/public`));
+import App from './App';
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(`${__dirname}/../client/public/index.html`));
-});
 
-app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}`);
-});
+ReactDOM.render(        
+<App />, document.getElementById('app'));
