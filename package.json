@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react boilerplate",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richkz/react-boilerplate.git"
+  },
+  "author": "Richard Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richkz/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/richkz/react-boilerplate#readme"
+}
